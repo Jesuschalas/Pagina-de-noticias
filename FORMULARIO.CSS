@@ -1,0 +1,145 @@
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    background-color: lightblue;  
+}  
+
+.Encabezado {  
+    width: 80%;  
+    margin: 0 auto;  
+    max-width: 1200px;  
+}  
+
+img {  
+    width: 100%;  
+    height: auto;  
+    display: block;  
+}  
+
+a {  
+    text-decoration: none;  
+    color: blue;   
+}  
+
+ 
+header {  
+    background-color:#79e4ed;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    padding: 20px 0;  
+}  
+
+header .Encabezado {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.Casita{
+    width: 40PX;
+}
+
+.UsuarioK{
+    width: 40px;
+}
+
+.logo h1 {  
+    margin: 0;  
+    font-size: 60px;  
+    font-family: 'Times New Roman', Times, serif;
+    color: #e44d26;   
+}  
+
+.logo p {  
+    margin: 0;  
+    font-size: 20px;  
+    color: #777;  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+    display: flex;  
+}  
+
+nav li {  
+    margin-left: 20px;  
+}  
+
+nav a { 
+    font-size: 23px; 
+    color: #e44d26;  
+    font-weight: bold;  
+    transition: color 0.3s;  
+}  
+
+nav a:hover {  
+    color: red;  
+}  
+
+.container {  
+    width: 80%;  
+    margin: auto;  
+    overflow: hidden;  
+}  
+
+
+main {  
+    padding: 20px;  
+    background: #ffffff;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+h1 {  
+    margin-bottom: 20px;  
+    color: #35424a;  
+}  
+
+form {  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+form label {  
+    margin-bottom: 5px;  
+    font-weight: bold;  
+}  
+
+form input {  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+}  
+
+form input:focus {  
+    border-color: #35424a;  
+    outline: none;  
+}  
+
+button {  
+    padding: 10px;  
+    background: #35424a;  
+    color: #ffffff;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+button:hover {  
+    background: #4a586e;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 15px;  
+    background: deepskyblue;  
+    color: #ffffff; 
+}

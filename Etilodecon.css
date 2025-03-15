@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+}
+body {  
+    font-family: 'Roboto', sans-serif;  
+    margin: 1px;  
+    padding: 0;  
+    background-color:white;  
+    color: black;  
+    line-height: 1.6;  
+}  
+
+.Encabezado {  
+    width: 80%;  
+    margin: 0 auto;  
+    max-width: 1200px;  
+}  
+
+img {  
+    width: 100%;  
+    height: auto;  
+    display: block;  
+}  
+
+a {  
+    text-decoration: none;  
+    color: black;   
+}  
+
+ 
+header {  
+    background-color:#79e4ed;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    padding: 20px 0;  
+}  
+
+header .Encabezado {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.Casita{
+    width: 40PX;
+}
+
+.UsuarioK{
+    width: 40px;
+}
+
+.logo h1 {  
+    margin: 0;  
+    font-size: 60px;  
+    font-family: 'Times New Roman', Times, serif;
+    color: #e44d26;   
+}  
+
+.logo p {  
+    margin: 0;  
+    font-size: 20px;  
+    color: #777;  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+    display: flex;  
+}  
+
+nav li {  
+    margin-left: 20px;  
+}  
+
+nav a { 
+    font-size: 23px; 
+    color: #333;  
+    font-weight: bold;  
+    transition: color 0.3s;  
+}  
+
+nav a:hover {  
+    color: darkred;  
+}  
+/*contenido*/
+.Contenido{
+    margin: 40px;
+    background-color: #ffffff;
+    text-align: center;
+   width: 1450px;
+
+}
+
+.img{
+place-items: center;
+}
+
+.imagen{
+    width: 500px;
+    border-radius: 20px;
+}
+
+ /*contenido*/
+footer {  
+    background: deepskyblue;   
+    color: #ffffff;   
+    padding: 20px 0;   
+    width: 100%;   
+    position: relative;   
+}  
+
+.footer-container {  
+    width: 960px; 
+    margin: 0 auto; 
+    margin-bottom: 0%;
+}  
+
+.footer-section {  
+    float: left;   
+    width: 30%;   
+    padding: 10px;  
+}  
+
+.footer-section h2 {  
+    color: #e44d26; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}  
+
+.footer-section h3{
+    font-size: 22px;
+}
+
+.footer-section p {  
+    margin-bottom: 10px;
+}  
+
+
+.footer-section ul li {  
+    margin: 5px 0; 
+}  
+
+.footer-section a {  
+    color: #ffffff; 
+    text-decoration: none; 
+}  
+
+.footer-section a:hover {  
+    text-decoration: underline;  
+}  
+
+.footer-bottom {  
+   clear: both;
+    text-align: center; 
+    background: #2c3e50; 
+    padding: 10px ;
+    margin: 0%;  
+}  
+
+.Iconosp .IconoP{
+    width: 50px;
+}
